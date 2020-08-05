@@ -10,22 +10,18 @@ export class App extends Component {
                     <div class = "subFlex">
                         <Quad1
                             background='red'
-                            borderElement='1px solid black'
                         />
                         <Quad1
                             background='yellow'
-                            borderElement='1px solid black'
                         />
                     </div>
 
                     <div class = "subFlex">
                         <Quad1
                             background='green'
-                            borderElement='1px solid black'
                         />
                         <Quad1
                             background='rgb(185, 122, 87)'
-                            borderElement='1px solid black'
                         />
                     </div>
                 </div>
