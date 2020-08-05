@@ -18,7 +18,12 @@ export class Quad1 extends Component {
 
     render() {
         return(
-            <div class = "bgFlexRed">
+            <div class = "bgFlexRed" 
+                style={{
+                    background: this.props.background,
+                    border: this.props.borderElement
+                }} 
+            >
                 <div>
                     <p>
                         {this.state.text}

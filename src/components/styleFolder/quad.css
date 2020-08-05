@@ -1,28 +1,4 @@
 .bgFlexRed{
-    background-color: red;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-}
-
-.bgFlexYellow{
-    background-color: yellow;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-}
-
-.bgFlexGreen{
-    background-color: green;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-}
-
-.bgFlexBrown{
-    background-color: rgb(185, 122, 87);
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-}
-
-.bgFlexRed, .bgFlexYellow, .bgFlexGreen, .bgFlexBrown {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,3 +6,24 @@
     height: 100%;
     width: 100%;
 }
+
+/* .bgFlexRed{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.bgFlexYellow{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.bgFlexGreen{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.bgFlexBrown{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+} */
+
