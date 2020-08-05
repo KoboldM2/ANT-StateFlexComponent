@@ -20,8 +20,7 @@ export class Quad1 extends Component {
         return(
             <div class = "bgFlexRed" 
                 style={{
-                    background: this.props.background,
-                    border: this.props.borderElement
+                    background: this.props.background
                 }} 
             >
                 <div>
@@ -35,8 +34,6 @@ export class Quad1 extends Component {
                 </div>
             </div>
         )
-
-        
     }
 }
 
